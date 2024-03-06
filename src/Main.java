@@ -13,6 +13,7 @@ public class Main {
             reversed = reversed * 10 + digit; // добавляем эту цифру в обратную сторону числа
             number = number / 10; // убираем последнюю цифру из заданного числа числа
         }
+        
 
         System.out.println(reversed);
 
